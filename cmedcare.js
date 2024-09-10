@@ -8,7 +8,7 @@ let userID = '295ddf18-b06b-41f3-a1af-35ca5ce0820c';
 
 let proxyIP = 'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
-let sub = 'sub.doma.workers.dev';// 留空则使用内置订阅
+let sub = '';// 留空则使用内置订阅
 let subconverter = 'api.v1.mk';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"; //订阅配置文件
 let subProtocol = 'https';
@@ -36,7 +36,7 @@ let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
 let DLS = 8;
-let FileName = 'sskfbg';
+let FileName = 'subvm';
 let BotToken ='';
 let ChatID =''; 
 let proxyhosts = [];//本地代理域名池
